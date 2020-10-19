@@ -1,0 +1,28 @@
+body {
+  font-size: 13px;
+}
+
+.container-fluid {
+  max-width: 1600px;
+}
+
+table thead tr th.sortable {
+  cursor: pointer;
+}
+
+table thead tr th span.arrow {
+  margin-left: 0.5rem;
+}
+
+table thead tr th:first-child {
+  width: 300px;
+}
+
+table tbody tr td.user_data {
+  width: 250px;
+}
+
+table tbody tr.statistic-header,
+table tbody tr.statistic-row {
+  background-color: #e9ecef;
+}
